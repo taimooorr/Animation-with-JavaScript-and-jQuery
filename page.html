@@ -50,8 +50,17 @@
         
     </div>
     <script>
+        /* 
+        Dollar sign is shortcut for jQuery
+        */
+        
         jQuery('#main').css('border', '3px solid red');
         $('h2').css('border', '2px solid blue');
+        $('li').first().css('border', '2px solid green');
+        /* JQuery Events */
+        $('a').click(function(){
+            alert('You clicked a link!');
+        });
     </script>
 </body>
 </html>
